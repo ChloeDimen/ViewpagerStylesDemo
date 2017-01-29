@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coolweather.android.viewpagerstylesdemo.MainActivity">
+    <!--<com.astuetz.PagerSlidingTabStrip android:layout_width="match_parent"
+                                      android:layout_height="48dp"
+                                      android:id="@+id/lay_pst"
+                                      android:textColor="#ff8f8f8f"
+                                      android:textSize = "18sp"
+                                      android:background="#ff2d2d2d"
+                                      app:pstsShouldExpand="true"
+                                      app:pstsIndicatorHeight="4dp"
+                                      app:pstsIndicatorColor="#ff00cd79"-->
+    />
+    <android.support.design.widget.TabLayout android:id="@+id/lay_pst"
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content"></android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lay_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
